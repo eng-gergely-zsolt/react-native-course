@@ -1,0 +1,16 @@
+{
+  "name": "blog-server",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "tunnel": "ngrok http 3000",
+    "db": "json-server -w db.json"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
